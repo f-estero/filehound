@@ -1,0 +1,23 @@
+[project]
+name = "filehound"
+version = "1.0.0"
+description = "Safe Windows file finder with batch lookup, safe copy, and Roe photo workflows."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "f-estero" }
+]
+dependencies = [
+  "pandas",
+  "openpyxl",
+  "Pillow",
+  "piexif"
+]
+
+[project.urls]
+Homepage = "https://github.com/f-estero/filehound.git"
+Repository = "https://github.com/f-estero/filehound.git"
+
+[project.scripts]
+filehound = "filehound:main"

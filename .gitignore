@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+*.xlsx
+*.xls
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+venv/
+.venv/
+dist/
+build/
+
+# Secrets and environment files
+.env
+*.env
+*.key
+*.pem
+*.secret
+
+# IDE and editors
+.vscode/
+.idea/
